@@ -94,7 +94,7 @@ def main():
     def notification_thread():
         print("notification is start")
         while True:
-            time.sleep(60)
+            time.sleep(180)
             send_notification(bot)
 
     # Создание и запуск потоков
